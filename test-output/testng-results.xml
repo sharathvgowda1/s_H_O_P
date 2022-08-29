@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="7" total="10" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Account has been edited]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-08-17T16:03:34 IST" name="Regional_RegressionSuite" finished-at="2022-08-17T16:03:34 IST" duration-ms="92">
+    <groups>
+      <group name="Regression">
+        <method signature="RegionalRegression2.createNomineeAccount2()[pri:0, instance:regionregressionpractice.RegionalRegression2@2fb3536e]" name="createNomineeAccount2" class="regionregressionpractice.RegionalRegression2"/>
+        <method signature="RegionalRegressionExecution.accountEdit()[pri:0, instance:org.smokeandregressionpractice.RegionalRegressionExecution@47faa49c]" name="accountEdit" class="org.smokeandregressionpractice.RegionalRegressionExecution"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="RegionalRegression2.createAccount2()[pri:0, instance:regionregressionpractice.RegionalRegression2@2fb3536e]" name="createAccount2" class="regionregressionpractice.RegionalRegression2"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-08-17T16:03:34 IST" name="Test" finished-at="2022-08-17T16:03:34 IST" duration-ms="92">
+      <class name="regionregressionpractice.RegionalRegression2">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:regionregressionpractice.RegionalRegression2@2fb3536e]" started-at="2022-08-17T16:03:34 IST" name="browserLaunch" finished-at="2022-08-17T16:03:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:regionregressionpractice.RegionalRegression2@2fb3536e]" started-at="2022-08-17T16:03:34 IST" name="loginToApp" finished-at="2022-08-17T16:03:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="createNomineeAccount2()[pri:0, instance:regionregressionpractice.RegionalRegression2@2fb3536e]" started-at="2022-08-17T16:03:34 IST" name="createNomineeAccount2" finished-at="2022-08-17T16:03:34 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNomineeAccount2 -->
+        <test-method is-config="true" signature="logoutFromApp()[pri:0, instance:regionregressionpractice.RegionalRegression2@2fb3536e]" started-at="2022-08-17T16:03:34 IST" name="logoutFromApp" finished-at="2022-08-17T16:03:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:regionregressionpractice.RegionalRegression2@2fb3536e]" started-at="2022-08-17T16:03:34 IST" name="loginToApp" finished-at="2022-08-17T16:03:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="createAccount2()[pri:0, instance:regionregressionpractice.RegionalRegression2@2fb3536e]" started-at="2022-08-17T16:03:34 IST" name="createAccount2" finished-at="2022-08-17T16:03:34 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount2 -->
+        <test-method is-config="true" signature="logoutFromApp()[pri:0, instance:regionregressionpractice.RegionalRegression2@2fb3536e]" started-at="2022-08-17T16:03:34 IST" name="logoutFromApp" finished-at="2022-08-17T16:03:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:regionregressionpractice.RegionalRegression2@2fb3536e]" started-at="2022-08-17T16:03:34 IST" name="browserClose" finished-at="2022-08-17T16:03:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- regionregressionpractice.RegionalRegression2 -->
+      <class name="org.smokeandregressionpractice.RegionalRegressionExecution">
+        <test-method is-config="true" signature="connectDB()[pri:0, instance:org.smokeandregressionpractice.RegionalRegressionExecution@47faa49c]" started-at="2022-08-17T16:03:34 IST" name="connectDB" finished-at="2022-08-17T16:03:34 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectDB -->
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:org.smokeandregressionpractice.RegionalRegressionExecution@47faa49c]" started-at="2022-08-17T16:03:34 IST" name="browserLaunch" finished-at="2022-08-17T16:03:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:org.smokeandregressionpractice.RegionalRegressionExecution@47faa49c]" started-at="2022-08-17T16:03:34 IST" name="loginToApp" finished-at="2022-08-17T16:03:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="accountEdit()[pri:0, instance:org.smokeandregressionpractice.RegionalRegressionExecution@47faa49c]" started-at="2022-08-17T16:03:34 IST" name="accountEdit" finished-at="2022-08-17T16:03:34 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Account has been edited]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- accountEdit -->
+        <test-method is-config="true" signature="logoutFromApp()[pri:0, instance:org.smokeandregressionpractice.RegionalRegressionExecution@47faa49c]" started-at="2022-08-17T16:03:34 IST" name="logoutFromApp" finished-at="2022-08-17T16:03:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:org.smokeandregressionpractice.RegionalRegressionExecution@47faa49c]" started-at="2022-08-17T16:03:34 IST" name="browserClose" finished-at="2022-08-17T16:03:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="disconnectFromDB()[pri:0, instance:org.smokeandregressionpractice.RegionalRegressionExecution@47faa49c]" started-at="2022-08-17T16:03:34 IST" name="disconnectFromDB" finished-at="2022-08-17T16:03:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disconnectFromDB -->
+      </class> <!-- org.smokeandregressionpractice.RegionalRegressionExecution -->
+    </test> <!-- Test -->
+  </suite> <!-- Regional_RegressionSuite -->
+</testng-results>
