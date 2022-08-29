@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 import utilities.BaseClass;
 
-public class RegionalRegressionExecution extends BaseClass{
+public class GroupExecutionPracticeTest extends BaseClass{
 	
 	@Test(groups = "Smoke")
 	public void createAccount()

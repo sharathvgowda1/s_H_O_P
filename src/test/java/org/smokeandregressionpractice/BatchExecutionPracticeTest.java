@@ -1,32 +1,32 @@
-package regionregressionpractice;
+package org.smokeandregressionpractice;
 
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import utilities.BaseClass;
 
-public class RegionalRegression2 extends BaseClass{
+public class BatchExecutionPracticeTest extends BaseClass{
 	
-	@Test(groups = "Smoke")
-	public void createAccount2()
+	@Test
+	public void createAccount()
 	{
 		System.out.println("Account has been created");
 	}
 	
-	@Test(groups = "Regression")
-	public void accountEdit2()
+	@Test
+	public void accountEdit()
 	{
 		Reporter.log("Account has been edited", true);
 	}
 	
-	@Test(groups = "Smoke")
-	public void accountDeleted2()
+	@Test
+	public void accountDeleted()
 	{
 		System.out.println("Account has been deleted");
 	}
 	
-	@Test(groups = "Regression")
-	public void createNomineeAccount2()
+	@Test
+	public void createNomineeAccount()
 	{
 		System.out.println("Nominee account has been created for this account");
 	}

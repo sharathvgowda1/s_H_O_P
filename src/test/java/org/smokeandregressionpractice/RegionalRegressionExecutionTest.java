@@ -5,27 +5,27 @@ import org.testng.annotations.Test;
 
 import utilities.BaseClass;
 
-public class BatchExecutionPractice extends BaseClass{
+public class RegionalRegressionExecutionTest extends BaseClass{
 	
-	@Test
+	@Test(groups = "Smoke")
 	public void createAccount()
 	{
 		System.out.println("Account has been created");
 	}
 	
-	@Test
+	@Test(groups = "Regression")
 	public void accountEdit()
 	{
 		Reporter.log("Account has been edited", true);
 	}
 	
-	@Test
+	@Test(groups = "Smoke")
 	public void accountDeleted()
 	{
 		System.out.println("Account has been deleted");
 	}
 	
-	@Test
+	@Test(groups = "Regression")
 	public void createNomineeAccount()
 	{
 		System.out.println("Nominee account has been created for this account");
