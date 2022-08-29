@@ -29,6 +29,7 @@ public class BatchExecutionPracticeTest extends BaseClass{
 	public void createNomineeAccount()
 	{
 		System.out.println("Nominee account has been created for this account");
+		System.out.println("for poll execution");
 	}
 
 }
